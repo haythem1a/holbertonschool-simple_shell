@@ -1,7 +1,7 @@
 #include "simple_shell.h"
-
 char *_memcpy(char *dest, char *src, unsigned int n);
 /**
+ **HAYTHEM ABIDI
  **_realloc -  a function that reallocates a memory block using malloc and free
  *@ptr : pointer
  *@old_size : int
@@ -13,7 +13,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	char *tmp;
 
 	if (new_size == old_size)
-		return (ptr);
+	return (ptr);
 	if (new_size == 0 && ptr != NULL)
 	{
 		free(ptr);
